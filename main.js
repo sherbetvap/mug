@@ -437,6 +437,7 @@ const g = { ...DEFAULTS };
     const $hand = new Image();
     const $hand2 = new Image();
     $hand.crossOrigin = "Anonymous";
+    $hand2.crossOrigin = "Anonymous";
     const animation = PetPetAnimation($canvas, $hand, $hand2, $preview);
     const imageLoader = ImageLoader(
       /** Image load listener */
